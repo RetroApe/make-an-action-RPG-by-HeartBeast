@@ -13,6 +13,10 @@ config_version=4
 config/name="Make an Action RPG - Tutorial by HeartBeast"
 run/main_scene="res://World.tscn"
 
+[autoload]
+
+PlayerStats="*res://Player/PlayerStats.tscn"
+
 [display]
 
 window/size/width=320
